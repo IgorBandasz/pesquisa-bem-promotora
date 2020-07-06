@@ -31,5 +31,24 @@
         	<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" >
         	<label for="optionsRadios4">Acima de 65 anos</label>
         </div>
+
+        <br/>
+        2. Qual seu Convênio:
+        <div class="radio">
+	        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+	        <label for="optionsRadios1">INSS</label>
+        </div>
+        <div class="radio">
+	        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+	        <label for="optionsRadios2">SIAPE</label>
+        </div>
+        <div class="radio">
+        	<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" >
+        	<label for="optionsRadios3">Forças Armadas</label>
+        </div>
+        <div class="radio">
+        	<input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" >
+        	<label for="optionsRadios4">Outros</label>
+        </div>
     </body>
 </html>
