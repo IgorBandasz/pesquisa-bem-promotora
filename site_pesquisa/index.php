@@ -1,24 +1,27 @@
 <?php
 $conexao=mysqli_connect('localhost','id14266447_root','H[Z8NvvQ9u.tYdj','id14266447_bancodedados')
 
-print_r($_POST);
 if(isset($_POST['ja_enviado'])){
-    if(isset($_POST['idade'])){
-        if(isset($_POST['convenio'])){
-            if(isset($_POST['salario'])){
-                if(isset($_POST['porque'])){
-                    $query="INSERT INTO tbformulario values('".$_POST['idade']."','".$_POST['convenio']."','".$_POST['salario']."','".$_POST['porque']."')";
-                    $conexao->query($query);
-                    if(!$conexao->error){
-                        header('Location: /formulario_concluido.html');
+    if(isset($_POST['nome'])){
+        if(isset($_POST['idade'])){
+            if(isset($_POST['convenio'])){
+                if(isset($_POST['salario'])){
+                    if(isset($_POST['motivo'])){
+                        $query="INSERT INTO tbpesquisa p (p.nomepesq, p.idadepesq, p.conveniopesq, p.salariopesq, p.motivopesq) 
+                        values('".$_POST['nome']."','".$_POST['idade']."','".$_POST['convenio']."','".$_POST['salario']."','".$_POST['motivo']."')";
+                        $conexao->query($query);
+                        if(!$conexao->error){
+                            header('Location: /formulario_concluido.html');
+                        }
+                        unsset($_POST['motivo']);
                     }
-                    unsset($_POST['porque']);
+                    unsset($_POST['salario'])
                 }
-                unsset($_POST['salario'])
+                unsset($_POST['convenio']);
             }
-            unsset($_POST['convenio']);
+            unsset($_POST['idade']);
         }
-        unsset($_POST['idade']);
+        unsset($_POST['nome']);
     }
 }
     
@@ -38,6 +41,9 @@ if(isset($_POST['ja_enviado'])){
 
         <form action="index.php" method="POST">
             <input type='hidden' name='ja_enviado' value='1'>
+            Nome:
+            <input type="text" name="nome" id="nome">
+
             1. Qual sua faixa de idade:
             <div class="radio">
 	            <input type="radio" name="idade" id="idade1" value="1">
@@ -97,19 +103,19 @@ if(isset($_POST['ja_enviado'])){
             <br>
             4. Porque você realizou o empréstimo:
             <div class="radio">
-	            <input type="radio" name="porque" id="porque1" value="1" checked="">
+	            <input type="radio" name="motivo" id="porque1" value="1" checked="">
 	            <label for="porque1">Pagar contas</label>
             </div>
             <div class="radio">
-	            <input type="radio" name="porque" id="porque2" value="2">
+	            <input type="radio" name="motivo" id="porque2" value="2">
 	            <label for="porque2">Reforma da casa</label>
             </div>
             <div class="radio">
-            	<input type="radio" name="porque" id="porque3" value="3">
+            	<input type="radio" name="motivo" id="porque3" value="3">
             	<label for="porque3">Compra de carro</label>
             </div>
             <div class="radio">
-            	<input type="radio" name="porque" id="porque4" value="4">
+            	<input type="radio" name="motivo" id="porque4" value="4">
             	<label for="porque4">Outras</label>
             </div>
 
