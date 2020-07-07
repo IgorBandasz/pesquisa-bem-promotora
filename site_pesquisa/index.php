@@ -1,5 +1,27 @@
 <?php
+$conexao=mysqli_connect('localhost','id14266447_root','H[Z8NvvQ9u.tYdj','id14266447_bancodedados')
 
+print_r($_POST);
+if(isset($_POST['ja_enviado'])){
+    if(isset($_POST['idade'])){
+        if(isset($_POST['convenio'])){
+            if(isset($_POST['salario'])){
+                if(isset($_POST['porque'])){
+                    $query="INSERT INTO tbformulario values('".$_POST['idade']."','".$_POST['convenio']."','".$_POST['salario']."','".$_POST['porque']."')";
+                    $conexao->query($query);
+                    if(!$conexao->error){
+                        header('Location: /formulario_concluido.html');
+                    }
+                    unsset($_POST['porque']);
+                }
+                unsset($_POST['salario'])
+            }
+            unsset($_POST['convenio']);
+        }
+        unsset($_POST['idade']);
+    }
+}
+    
 
 ?>
 
@@ -15,6 +37,7 @@
         <h2>A Bem Promotora está propondo essa rápida pesquisa a fim de conhecer melhor seus clientes</h2>
 
         <form action="index.php" method="POST">
+            <input type='hidden' name='ja_enviado' value='1'>
             1. Qual sua faixa de idade:
             <div class="radio">
 	            <input type="radio" name="idade" id="idade1" value="1">
