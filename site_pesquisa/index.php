@@ -1,5 +1,5 @@
 <?php
-$conexao=mysqli_connect('localhost','id14266447_root','H[Z8NvvQ9u.tYdj','id14266447_bancodedados')
+$conexao=mysqli_connect('localhost','id14266447_root','H[Z8NvvQ9u.tYdj','id14266447_bancodedados');
 
 if(isset($_POST['ja_enviado'])){
     if(isset($_POST['nome'])){
@@ -7,21 +7,21 @@ if(isset($_POST['ja_enviado'])){
             if(isset($_POST['convenio'])){
                 if(isset($_POST['salario'])){
                     if(isset($_POST['motivo'])){
-                        $query="INSERT INTO tbpesquisa p (p.nomepesq, p.idadepesq, p.conveniopesq, p.salariopesq, p.motivopesq) 
+                        $query="INSERT INTO tbpesquisa (nomepesq, idadepesq, conveniopesq, salariopesq, motivopesq) 
                         values('".$_POST['nome']."','".$_POST['idade']."','".$_POST['convenio']."','".$_POST['salario']."','".$_POST['motivo']."')";
                         $conexao->query($query);
                         if(!$conexao->error){
                             header('Location: /formulario_concluido.html');
                         }
-                        unsset($_POST['motivo']);
+                        unset($_POST['motivo']);
                     }
-                    unsset($_POST['salario'])
+                    unset($_POST['salario']);
                 }
-                unsset($_POST['convenio']);
+                unset($_POST['convenio']);
             }
-            unsset($_POST['idade']);
+            unset($_POST['idade']);
         }
-        unsset($_POST['nome']);
+        unset($_POST['nome']);
     }
 }
     
