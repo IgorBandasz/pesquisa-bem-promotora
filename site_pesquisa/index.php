@@ -24,8 +24,6 @@ if(isset($_POST['ja_enviado'])){
         unset($_POST['nome']);
     }
 }
-    
-
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +36,10 @@ if(isset($_POST['ja_enviado'])){
     <body>
         <h1>Olá</h1>
         <h2>A Bem Promotora está propondo essa rápida pesquisa a fim de conhecer melhor seus clientes</h2>
+
+        <?php  if(isset($_POST['ja_enviado'])):?>
+            <p id="ja_enviado">Preenchimento incorreto do formulário, tente novamente</p>
+        <?php  endif;?>
 
         <form action="index.php" method="POST">
             <input type='hidden' name='ja_enviado' value='1'>
@@ -65,7 +67,7 @@ if(isset($_POST['ja_enviado'])){
             <br/>
             2. Qual seu Convênio:
             <div class="radio">
-	            <input type="radio" name="convenio" id="convenio1" value="1" checked="">
+	            <input type="radio" name="convenio" id="convenio1" value="1">
 	            <label for="convenio1">INSS</label>
             </div>
             <div class="radio">
@@ -84,7 +86,7 @@ if(isset($_POST['ja_enviado'])){
             <br>
             3. Qual sua faixa salarial:
             <div class="radio">
-	            <input type="radio" name="salario" id="salario1" value="1" checked="">
+	            <input type="radio" name="salario" id="salario1" value="1">
 	            <label for="salario1">Até 2 SM</label>
             </div>
             <div class="radio">
@@ -103,7 +105,7 @@ if(isset($_POST['ja_enviado'])){
             <br>
             4. Porque você realizou o empréstimo:
             <div class="radio">
-	            <input type="radio" name="motivo" id="porque1" value="1" checked="">
+	            <input type="radio" name="motivo" id="porque1" value="1">
 	            <label for="porque1">Pagar contas</label>
             </div>
             <div class="radio">
