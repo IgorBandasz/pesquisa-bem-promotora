@@ -11,7 +11,7 @@ if(isset($_POST['ja_enviado'])){
                         values('".$_POST['nome']."','".$_POST['idade']."','".$_POST['convenio']."','".$_POST['salario']."','".$_POST['motivo']."')";
                         $conexao->query($query);
                         if(!$conexao->error){
-                            header('Location: /formulario_concluido.html');
+                            header('Location: /formulario_concluido.php');
                         }
                         unset($_POST['motivo']);
                     }
