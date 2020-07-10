@@ -1,8 +1,60 @@
 @charset "UTF-8";
-        div#interface{
-            width: 1300px; /* delimitar a largura*/
-            background-color:#9be3df; /* cor do container*/
-            margin: 0px auto  0px auto; /*medidas da margem cima/ direita /baixo/ esquerda*/
-            box-shadow: 5px 2px 2px 2px rgba(250,135,138, 0.5); /* sombra envolta do objeto*/
-            padding: 10px 20px 10px 20px; /* posicionar o texto sem estar colado nas bordas*/
-        }
+div#interface{
+    width: 1300px; /* delimitar a largura*/
+    background-color:#d2fdfc; /* cor do container*/
+    margin: 0px auto  0px auto; /*medidas da margem cima/ direita /baixo/ esquerda*/
+    box-shadow: 5px 2px 2px 2px rgba(239, 107, 3, 0.5); /* sombra envolta do objeto*/
+    padding: 10px 20px 10px 20px; /* posicionar o texto sem estar colado nas bordas*/
+}
+
+header#cabecalho{ /*configurando o titulo "Jogo da memória"*/
+    display: block;
+    font-family: Britannic, sans-serif;  /*font e o efeito especial*/
+    font-size: 20pt; /*tamanho letra*/
+    color: #ff982d; /*cor letra*/
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /*sombra no texto*/
+    text-align: center;/*texto centralizado*/
+    border-bottom: 1px solid rgba(250,135,138, 0.8);
+    /*linha em baixo do texto*/
+    position: relative;
+    top: -40px;
+}
+
+p#ja_enviado {
+    font-size: 20pt;
+    color: #df1c1c;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    position: relative;
+    left: 380pt;
+    top: -20pt;
+}
+p {
+    font-size: 20pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    position: relative;
+    left: 100pt;
+    top: -20pt;
+}
+
+input#nome{
+    font-size: 18pt;
+    position: relative;
+    left: 180pt;
+    top: -63pt;
+}
+.radio{
+    font-size: 17pt;
+    position: relative;
+    left: 100pt;
+    top: -30pt;
+}
+input#botao{
+    position: relative;
+    left: 700pt;
+    font-family: Arial;
+    font-size: 20pt;
+    background-color: #ff982d;
+    color:#ffffff;
+    padding: 10pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6); 
+}

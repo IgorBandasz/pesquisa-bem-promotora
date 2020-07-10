@@ -77,29 +77,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Formulário concluído</title>
-    <   link rel ="stylesheet" type="text/css" href = "_css/form_conc.css"/>
+        <link rel ="stylesheet" type="text/css" href = "_css/form_conc.css"/>
     </head>
     <body>
         <div id="interface">
-            <h1>O seu formulário foi enviado com sucesso</h1>
+            <header id="cabecalho">
+                <h1>O seu formulário foi enviado com sucesso</h1> 
+            </header>
+            <h1>Informações no Banco de dados</h1>
             <h3>Idades:</h3>
+            <h4>Frequências:</h4>
             <?php for($cont=0; $cont<4; $cont++): ?>
-                <div id="tipo"><?php echo $quantidades[$cont];?></div><div id="quant"> <?php  echo $idades[$cont];?></div>
+                <div id="tipo"> <?php  echo $idades[$cont];?></div><div id="quant"><?php echo $quantidades[$cont];?></div>
             <?php endfor; ?>
             
             <h3>Convenios:</h3>
+            <h4>Frequências:</h4>
             <?php for($cont=0; $cont<4; $cont++): ?>
-                <div id="tipo"><?php echo $quantconv[$cont];?></div><div id="quant"> <?php echo $convenios[$cont];?></div>
+                <div id="tipo"> <?php echo $convenios[$cont];?></div><div id="quant"><?php echo $quantconv[$cont];?></div>
             <?php endfor; ?>
             
             <h3>Salarios:</h3>
+            <h4>Frequências:</h4>
             <?php for($cont=0; $cont<4; $cont++): ?>
-                <div id="tipo"><?php echo $quantsal[$cont];?></div><div id="quant"> <?php  echo $salarios[$cont];?></div>
+                <div id="tipo"> <?php  echo $salarios[$cont];?></div><div id="quant"><?php echo $quantsal[$cont];?></div>
             <?php endfor; ?>
             
             <h3>Motivos:</h3>
+            <h4>Frequências:</h4>
             <?php for($cont=0; $cont<4; $cont++): ?>
-                <div id="tipo"><?php echo $quantmot[$cont];?></div><div id="quant"> <?php  echo $motivos[$cont];?></div>
+                <div id="tipo"> <?php  echo $motivos[$cont];?></div><div id="quant"><?php echo $quantmot[$cont];?></div>
             <?php endfor; ?>
         </div>
     </body>
