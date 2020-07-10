@@ -1,82 +1,74 @@
 <?php
     $conexao=mysqli_connect('localhost','id14266447_root','H[Z8NvvQ9u.tYdj','id14266447_bancodedados'); 
-    $query="SELECT idadepesq, count(*) as quant from tbpesquisa p group by p.idadepesq;";
+    
+    $quantidades=[ ];
+    $quantconv=[ ];
+    $quantsal=[ ];
+    $quantmot=[ ];
+    for($cont=0; $cont<4; $cont++){
+        $quantidades[]=0;
+        $quantconv[]=0;
+        $quantsal[]=0;
+        $quantmot[]=0;
+    }
+
+    $query="SELECT count(*) as quant from tbpesquisa p group by p.idadepesq order by p.idadepesq;";
     $resultado=mysqli_query($conexao,$query);
 
     $cont=0;
     while($val=mysqli_fetch_array($resultado)){
-        $idades[$cont]=$val['idadepesq'];
         $quantidades[$cont]=$val['quant'];
         $cont++;
     }
     
-    $query="SELECT p.conveniopesq, count(*) as quant from tbpesquisa p group by p.conveniopesq;";
+    $query="SELECT count(*) as quant from tbpesquisa p group by p.conveniopesq order by p.conveniopesq;";
     $resultado=mysqli_query($conexao,$query);
 
     $cont=0;
     while($val=mysqli_fetch_array($resultado)){
-        $convenios[$cont]=$val['conveniopesq'];
         $quantconv[$cont]=$val['quant'];
         $cont++;
     }
 
-    $query="SELECT salariopesq, count(*) as quant from tbpesquisa p group by p.salariopesq;";
+    $query="SELECT count(*) as quant from tbpesquisa p group by p.salariopesq order by p.salariopesq;";
     $resultado=mysqli_query($conexao,$query);
 
     $cont=0;
     while($val=mysqli_fetch_array($resultado)){
-        $salarios[$cont]=$val['salariopesq'];
         $quantsal[$cont]=$val['quant'];
         $cont++;
     }
 
-    $query="SELECT motivopesq, count(*) as quant from tbpesquisa p group by p.motivopesq;";
+    $query="SELECT count(*) as quant from tbpesquisa p group by p.motivopesq order by p.motivopesq;";
     $resultado=mysqli_query($conexao,$query);
 
     $cont=0;
     while($val=mysqli_fetch_array($resultado)){
-        $motivos[$cont]=$val['motivopesq'];
         $quantmot[$cont]=$val['quant'];
         $cont++;
     }
 
-    for($cont=0; $cont<4; $cont++){
-        if($idades[$cont] ==1)
-            $idades[$cont] = "Até 30 anos";
-        if($idades[$cont] ==2)
-            $idades[$cont] = "De 30 a 50 anos";
-        if($idades[$cont] ==3)
-            $idades[$cont] = "De 50 a 65 anos";
-        if($idades[$cont] ==4)
-            $idades[$cont] = "Acima de 65 anos";
+    $idades[0] = "Até 30 anos";
+    $idades[1] = "De 30 a 50 anos";
+    $idades[2] = "De 50 a 65 anos";
+    $idades[3] = "Acima de 65 anos"
 
-        if($convenios[$cont]==1)
-            $convenios[$cont] ="INSS";
-        if($convenios[$cont]==2)
-            $convenios[$cont] ="SIAPE";
-        if($convenios[$cont]==3)
-            $convenios[$cont] ="Forças Armadas";
-        if($convenios[$cont]==4)
-            $convenios[$cont] ="Outros";
+    $convenios[0] ="INSS";
+    $convenios[1] ="SIAPE";
+    $convenios[2] ="Forças Armadas";
+    $convenios[3] ="Outros"
 
-        if($salarios[$cont]==1)
-            $salarios[$cont] = "Até 2 SM";
-        if($salarios[$cont]==2)
-            $salarios[$cont] = "De 2 a 4 SM";
-        if($salarios[$cont]==3)
-            $salarios[$cont] = "De 4 a 6 SM";
-        if($salarios[$cont]==4)
-            $salarios[$cont] = "Acima de 6 SM";
-            
-        if($motivos[$cont]==1)
-            $motivos[$cont] = "Pagar contas";
-        if($motivos[$cont]==2)
-            $motivos[$cont] = "Reforma da casa";
-        if($motivos[$cont]==3)
-            $motivos[$cont] = "Compra de carro";
-        if($motivos[$cont]==4)
-            $motivos[$cont] = "Outras";
-    }
+    $salarios[0] = "Até 2 SM";
+    $salarios[1] = "De 2 a 4 SM";
+    $salarios[2] = "De 4 a 6 SM";
+    $salarios[3] = "Acima de 6 SM";
+    
+    $motivos[0] = "Pagar contas";
+    $motivos[1] = "Reforma da casa";
+    $motivos[2] = "Compra de carro";
+    $motivos[3] = "Outras";
+    
+
 ?>
 
 <!DOCTYPE html>
@@ -88,8 +80,24 @@
 </head>
 <body>
     <h1>O seu formulário foi enviado com sucesso</h1>
-    
-    
+    <h3>Idades:</h3>
+    <?php for($cont=0; $cont<4; $cont++): ?>
+        <div><?php echo $quantidades[$cont]; echo $idades[$cont];?></div>
+    <?php endfor; ?>
 
+    <h3>Convenios:</h3>
+    <?php for($cont=0; $cont<4; $cont++): ?>
+        <div><?php echo $quantconv[$cont]; echo $convenios[$cont];?></div>
+    <?php endfor; ?>
+
+    <h3>Salarios:</h3>
+    <?php for($cont=0; $cont<4; $cont++): ?>
+        <div><?php echo $quantsal[$cont]; echo $salarios[$cont];?></div>
+    <?php endfor; ?>
+
+    <h3>Motivos:</h3>
+    <?php for($cont=0; $cont<4; $cont++): ?>
+        <div><?php echo $quantmot[$cont]; echo $motivos[$cont];?></div>
+    <?php endfor; ?>
 </body>
 </html>
