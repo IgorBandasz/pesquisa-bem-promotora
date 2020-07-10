@@ -1,0 +1,8 @@
+@charset "UTF-8";
+        div#interface{
+            width: 1300px; /* delimitar a largura*/
+            background-color:#9be3df; /* cor do container*/
+            margin: 0px auto  0px auto; /*medidas da margem cima/ direita /baixo/ esquerda*/
+            box-shadow: 5px 2px 2px 2px rgba(250,135,138, 0.5); /* sombra envolta do objeto*/
+            padding: 10px 20px 10px 20px; /* posicionar o texto sem estar colado nas bordas*/
+        }

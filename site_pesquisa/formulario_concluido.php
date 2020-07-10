@@ -51,12 +51,12 @@
     $idades[0] = "Até 30 anos";
     $idades[1] = "De 30 a 50 anos";
     $idades[2] = "De 50 a 65 anos";
-    $idades[3] = "Acima de 65 anos"
+    $idades[3] = "Acima de 65 anos";
 
     $convenios[0] ="INSS";
     $convenios[1] ="SIAPE";
     $convenios[2] ="Forças Armadas";
-    $convenios[3] ="Outros"
+    $convenios[3] ="Outros";
 
     $salarios[0] = "Até 2 SM";
     $salarios[1] = "De 2 a 4 SM";
@@ -73,31 +73,34 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário concluído</title>
-</head>
-<body>
-    <h1>O seu formulário foi enviado com sucesso</h1>
-    <h3>Idades:</h3>
-    <?php for($cont=0; $cont<4; $cont++): ?>
-        <div><?php echo $quantidades[$cont]; echo $idades[$cont];?></div>
-    <?php endfor; ?>
-
-    <h3>Convenios:</h3>
-    <?php for($cont=0; $cont<4; $cont++): ?>
-        <div><?php echo $quantconv[$cont]; echo $convenios[$cont];?></div>
-    <?php endfor; ?>
-
-    <h3>Salarios:</h3>
-    <?php for($cont=0; $cont<4; $cont++): ?>
-        <div><?php echo $quantsal[$cont]; echo $salarios[$cont];?></div>
-    <?php endfor; ?>
-
-    <h3>Motivos:</h3>
-    <?php for($cont=0; $cont<4; $cont++): ?>
-        <div><?php echo $quantmot[$cont]; echo $motivos[$cont];?></div>
-    <?php endfor; ?>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário concluído</title>
+    <   link rel ="stylesheet" type="text/css" href = "_css/form_conc.css"/>
+    </head>
+    <body>
+        <div id="interface">
+            <h1>O seu formulário foi enviado com sucesso</h1>
+            <h3>Idades:</h3>
+            <?php for($cont=0; $cont<4; $cont++): ?>
+                <div id="tipo"><?php echo $quantidades[$cont];?></div><div id="quant"> <?php  echo $idades[$cont];?></div>
+            <?php endfor; ?>
+            
+            <h3>Convenios:</h3>
+            <?php for($cont=0; $cont<4; $cont++): ?>
+                <div id="tipo"><?php echo $quantconv[$cont];?></div><div id="quant"> <?php echo $convenios[$cont];?></div>
+            <?php endfor; ?>
+            
+            <h3>Salarios:</h3>
+            <?php for($cont=0; $cont<4; $cont++): ?>
+                <div id="tipo"><?php echo $quantsal[$cont];?></div><div id="quant"> <?php  echo $salarios[$cont];?></div>
+            <?php endfor; ?>
+            
+            <h3>Motivos:</h3>
+            <?php for($cont=0; $cont<4; $cont++): ?>
+                <div id="tipo"><?php echo $quantmot[$cont];?></div><div id="quant"> <?php  echo $motivos[$cont];?></div>
+            <?php endfor; ?>
+        </div>
+    </body>
 </html>
