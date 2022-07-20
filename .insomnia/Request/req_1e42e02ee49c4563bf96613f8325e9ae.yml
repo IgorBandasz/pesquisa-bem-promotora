@@ -1,0 +1,29 @@
+_id: req_1e42e02ee49c4563bf96613f8325e9ae
+type: Request
+parentId: fld_77e17dbd826844d08391d5f25aa77f9f
+modified: 1658321460284
+created: 1658321460284
+url: http://localhost:4001/estadoCivil
+name: Get Estado_Civil
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06f06bed5889468eb0fea6d1f6d16b81
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_79ec1b2603da4ee28d609d30c9876828
+    disabled: false
+authentication: {}
+metaSortKey: -1635971855315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

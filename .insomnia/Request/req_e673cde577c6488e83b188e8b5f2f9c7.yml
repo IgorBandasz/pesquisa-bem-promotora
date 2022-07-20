@@ -1,0 +1,32 @@
+_id: req_e673cde577c6488e83b188e8b5f2f9c7
+type: Request
+parentId: fld_2375c454c00b4322acc5daa44ef11d84
+modified: 1658321460316
+created: 1658321460316
+url: http://localhost:4001/indicadorFaturamentos
+name: Post Indicador Faturamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "indicador"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bb29c1fe0fa54e0ab136225a22d935dd
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjEzNzA3NiwiZXhwIjoxNjM3OTM3MDc2fQ.YgoYErYRkgybgUNj3YheThWQDCcdJoQ2nahLoMNuGqTXdelAwFm-hUyhP1wuIhX40icnUk7pnUSVrBPpqQTQMFLx2HkDHAzmq6wzHXgECAGyxDDb47sDcCbrjj1F3dU3Fly04c9V1-A-w_Zyf1NzyKrU-E2roAtauIyG4ry1QgvTBccyu3UlV_1K_3ZCNILysNOK2-Q3sY9TztdlvgCkr99ogiyDDhVMNJnv6jFYi3SgVi-1Jw6CkWyM4hBB8zeuO-p-6Z_4puNmAQ0Sbv_bVZeUQkRayUgmARKpb08uNPfwqBnCO5NSH_aondeiO6OGzdYa2DuWLwdGqIRTLl454w
+    id: pair_b4ff332514274c6c8b6ee8e9cc7ab6e4
+authentication: {}
+metaSortKey: -1636137265844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

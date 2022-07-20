@@ -1,0 +1,36 @@
+_id: req_d6152ef1d81e4d57b0bbf0d5bbad5099
+type: Request
+parentId: fld_24c1aac76cbd47c38a64d96ec73218d2
+modified: 1658321454326
+created: 1658321454326
+url: http://localhost:4001/cidade
+name: Post Cidade
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 18,
+    	"nome": "18",
+    	"uf": "RS"
+    	
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_057117e8d7cc4d96beaa69cbac91833e
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_82e7b90e520f4ba897e1b58cfa418a1b
+authentication: {}
+metaSortKey: -1635971664201
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

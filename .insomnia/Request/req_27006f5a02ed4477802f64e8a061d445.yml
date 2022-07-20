@@ -1,0 +1,29 @@
+_id: req_27006f5a02ed4477802f64e8a061d445
+type: Request
+parentId: fld_48cd1e6606714c96ae636d62c40bfbc8
+modified: 1658321460490
+created: 1658321460490
+url: http://localhost:4001/agrupamentoProcedimento
+name: Get Agrupamento Procedimento
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_191828c4b4f7428bb31b134025e88107
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_cabc02c618d94cf49586fc742ab1ab5d
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1656074371446
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

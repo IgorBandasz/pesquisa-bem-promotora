@@ -1,0 +1,28 @@
+_id: req_c680c0ac43bb4ce68b0e61937143b6a8
+type: Request
+parentId: fld_cc27bad87d0f4db08ec2ad711674c6dd
+modified: 1658321460478
+created: 1658321460478
+url: http://localhost:4001/associado
+name: Get Pessoas
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_a1ea2b5b7f82406e99b3411887437761
+  - name: Content-Type
+    value: application/json
+    id: pair_d5217602aec64380b8904e8ac873b805
+authentication: {}
+metaSortKey: -1636121420276
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

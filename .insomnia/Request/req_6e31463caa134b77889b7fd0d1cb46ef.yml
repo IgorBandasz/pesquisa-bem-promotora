@@ -1,0 +1,52 @@
+_id: req_6e31463caa134b77889b7fd0d1cb46ef
+type: Request
+parentId: fld_be1df52c088c41fba318cb0b544fe6b0
+modified: 1658321460394
+created: 1658321460394
+url: http://localhost:4001/folhaPagamentos/5
+name: Patch Folha Pagamento
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"pessoaId": 3,
+    	"pessoaVinculoPensionistaId": 1,
+    	"orgaoId": 1,
+    	"lotacaoId": 2,
+    	"ocupacaoId": 1,
+    	"situacaoFolhaPagamentoId": 1,
+    	"descricao": "folha 1.1",
+    	"matricula": "11234567",
+    	"dataAdmissao": "2020-01-01",
+    	"dataDemissao": "2021-01-01",
+    	"descontoCopart": true,
+    	"folhaPagamentoSalario": [
+    		{
+    			"competenciaId": 1,
+    			"salario": 1500
+    		},
+    		{
+    			"competenciaId": 2,
+    			"salario": 2000
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8b5ad9a9b7bc476abfcd256fa3abf586
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ4NjkxMSwiZXhwIjoxNjM4Mjg2OTExfQ.n4J6S3bgG70msFXRfVF7K7VNQENwCYNkWUWfL_2Lk2SVb-XGG6zr_rQONwQZsKKKPiAIwVAUOvl-IPN0ki6W3QVlFt24Wzsk0yghFiMG7ixsKTRmcswM-2yu6fbpZdfPTL0tBahrRSqlBz7uGSBzBPmjZJCDEq7pM3S2g7YBSuY6VfB4rm5eJ1H0_snvi5twVjTOuj_Mv6VYiCuPux446CsIZanuIGYHvyk2IHrlK4eFemldPfUfJiucYg0xfRwnpukurgFTBYxcQ-hJjKcO_U5XVtDu3WGufFfdtBsFgrSSrmSMMWSRVIY_xJHI8k5IIAhJTkXZw8_RcjeSDMFBNw
+    id: pair_00ecdb2ec515480cb49eb7a843728099
+authentication: {}
+metaSortKey: -1636487831071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

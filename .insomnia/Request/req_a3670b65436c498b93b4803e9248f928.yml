@@ -1,0 +1,48 @@
+_id: req_a3670b65436c498b93b4803e9248f928
+type: Request
+parentId: fld_30e8896f236b48c09edd155b190eaeb7
+modified: 1658321460366
+created: 1658321460366
+url: http://localhost:4001/recursoGlosas
+name: Post Recurso Glosa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"dataRecursoGlosa": "2021-11-09",
+    	"valorTotalRecursado": 100.25,
+    	"valorTotalAcatado": 50.49,
+    	"recursoGlosaProcedimento": [
+    		{
+    			"atendimentoProcedimentoId": 2,
+    			"valorRecursado": 50,
+    			"valorAcatado": 30,
+    			"acatado": true
+    		},
+    		{
+    			"atendimentoProcedimentoId": 1,
+    			"valorRecursado": 50.25,
+    			"valorAcatado": 20.49,
+    			"acatado": true
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c2a866b58fe34b7989e674fd8bcc8553
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ2Mzc5MiwiZXhwIjoxNjM4MjYzNzkyfQ.XAuKh4gaKg3rr_t8_0xd9so-pOnQ5rz0f_htj2GFSq6ZyLwNpjPNt9XK2NIimeCFmEw1QVvmhMLUNJk2_loWa0zdWLzsRfQLkfn1bhtrwbjxNuGgWNvvdlsrKLfZkChAMd90KzLpWEwXge8xx-7VYbJYvdE7_MoBRTL3k_1BvGfFY86LEXLn2LnJCha6i8-B-xQyHSTQQNA0Rh_LN9yicIWxRPzUvnQuVse84gLKGb2Khoxtb2XHDtKTVX9ybZOzrXrjaaJUcUWgSOE4-VmJ7iBb6k93hw36-nOA55jGlaj8AbXRSHN4jUdTj9qq62qIv133timbYyz8CwyHMJGkHw
+    id: pair_0d893a513713443580301b6677fc469e
+authentication: {}
+metaSortKey: -1636465653365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

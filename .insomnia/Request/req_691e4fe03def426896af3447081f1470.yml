@@ -1,0 +1,34 @@
+_id: req_691e4fe03def426896af3447081f1470
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460267
+created: 1658321460267
+url: "{{ _.host }}/autorizacao/1/approve"
+name: autorizacao/{id}/approve
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"statusId": 1,
+    	"descricaoFinalizacao" : "qwwer we rw"
+    }
+parameters: []
+headers:
+  - id: pair_336ced09395a4c18a9495bb6b48fcc5e
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d6fc04ec2fd40b3ac8aa523b4664f72
+authentication: {}
+metaSortKey: -1648763361672.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

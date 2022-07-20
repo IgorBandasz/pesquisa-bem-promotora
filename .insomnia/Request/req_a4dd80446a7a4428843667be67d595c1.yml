@@ -1,0 +1,32 @@
+_id: req_a4dd80446a7a4428843667be67d595c1
+type: Request
+parentId: fld_cf9ffab3a52c40ffbc1c7ab949b5c030
+modified: 1658321460429
+created: 1658321460429
+url: http://localhost:4001/lotacoes/1
+name: Patch Locacao
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "UBS da morada do vale 2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_633ead47b0e04c79b884c4d5850f10f4
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ4NDUxNiwiZXhwIjoxNjM4Mjg0NTE2fQ.BI4arCTAZ50pOT7o-9UVAZdnSmXCrJB_9uKL2oVWcau1Pcu4i7I4uF3MAnHQTfbs87d1N1p-RLzu3pXLWupJ0oAwlI2kg7xi0o5cJIov3M9PkE53Zlj6UNDS8hxu9EvyCfTS8VvffZZ2yR25aG9EQO2a0W9F5HjBIMOMvrM8x-YGuVvtrTIczTSiLCpzvZLg_EH_IdDhef9ntmWhQHtY9ZGvd61XU5mSYATo_HP6NXuM89wzS5b0Yo1Q5oasHj9f0t1e6kpge3_klKEE7CZrdl-66dJG6w43SNNQd0CuiqjQAWr_hIJrKNl27DbF6g6X2pOXLY1uD6gurFXlIXb2fQ
+    id: pair_aad505cf0fb042cd9c505e45fbacda26
+authentication: {}
+metaSortKey: -1636486208421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_99e50d99d1e6444fa5ff6949ce119e14
+type: Request
+parentId: fld_cf9ffab3a52c40ffbc1c7ab949b5c030
+modified: 1658321460435
+created: 1658321460435
+url: http://localhost:4001/lotacoes/1
+name: Delete Locacao
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "motivo de exclusão"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_df34c0a3fada49e6bed3cc7b45baa77e
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ4NDUxNiwiZXhwIjoxNjM4Mjg0NTE2fQ.BI4arCTAZ50pOT7o-9UVAZdnSmXCrJB_9uKL2oVWcau1Pcu4i7I4uF3MAnHQTfbs87d1N1p-RLzu3pXLWupJ0oAwlI2kg7xi0o5cJIov3M9PkE53Zlj6UNDS8hxu9EvyCfTS8VvffZZ2yR25aG9EQO2a0W9F5HjBIMOMvrM8x-YGuVvtrTIczTSiLCpzvZLg_EH_IdDhef9ntmWhQHtY9ZGvd61XU5mSYATo_HP6NXuM89wzS5b0Yo1Q5oasHj9f0t1e6kpge3_klKEE7CZrdl-66dJG6w43SNNQd0CuiqjQAWr_hIJrKNl27DbF6g6X2pOXLY1uD6gurFXlIXb2fQ
+    id: pair_3a56804bfabe45068c0433a949bb66bd
+authentication: {}
+metaSortKey: -1636486208371
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

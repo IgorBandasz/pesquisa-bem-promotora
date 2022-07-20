@@ -1,0 +1,32 @@
+_id: req_93005be28e8b4573827fc8c67d2994b1
+type: Request
+parentId: fld_dc6a21b833cc46388567cea6ec8f36c4
+modified: 1658321460447
+created: 1658321460447
+url: http://localhost:4001/classificacoesCredenciado
+name: Post Classificacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Classifica Cred"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a62cfbf1eac341b8bf73e94872d40e29
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_c0d0114c71b245479d6d3fc18ce2d841
+authentication: {}
+metaSortKey: -1637082614360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

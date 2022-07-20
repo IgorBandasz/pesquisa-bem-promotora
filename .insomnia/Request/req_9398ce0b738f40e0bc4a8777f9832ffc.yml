@@ -1,0 +1,52 @@
+_id: req_9398ce0b738f40e0bc4a8777f9832ffc
+type: Request
+parentId: fld_be1df52c088c41fba318cb0b544fe6b0
+modified: 1658321460387
+created: 1658321460387
+url: http://localhost:4001/folhaPagamentos
+name: Post Folha Pagamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"pessoaId": 2,
+    	"pessoaVinculoPensionistaId": 3,
+    	"orgaoId": 1,
+    	"lotacaoId": 2,
+    	"ocupacaoId": 1,
+    	"situacaoFolhaPagamentoId": 1,
+    	"descricao": "folha 1",
+    	"matricula": "11234567",
+    	"dataAdmissao": "2020-01-01",
+    	"dataDemissao": "2021-01-01",
+    	"descontoCopart": true,
+    	"folhaPagamentoSalario": [
+    		{
+    			"competenciaId": 1,
+    			"salario": 1500
+    		},
+    		{
+    			"competenciaId": 2,
+    			"salario": 2000
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_05cf486b9ba2427688faff4088fb2be3
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_65d767ecdbde45c4b25918c6b9ab7ada
+authentication: {}
+metaSortKey: -1636484147669
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

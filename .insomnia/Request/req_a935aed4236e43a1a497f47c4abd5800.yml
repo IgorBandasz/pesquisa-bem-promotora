@@ -1,0 +1,33 @@
+_id: req_a935aed4236e43a1a497f47c4abd5800
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460274
+created: 1658321460274
+url: "{{ _.host }}/autorizacao/1/use"
+name: autorizacao/{id}/use
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"descricaoFinalizacao" : ""
+    }
+parameters: []
+headers:
+  - id: pair_336ced09395a4c18a9495bb6b48fcc5e
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d6fc04ec2fd40b3ac8aa523b4664f72
+authentication: {}
+metaSortKey: -1648757762703.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

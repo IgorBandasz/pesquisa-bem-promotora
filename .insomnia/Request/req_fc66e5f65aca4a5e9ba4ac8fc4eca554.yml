@@ -1,0 +1,30 @@
+_id: req_fc66e5f65aca4a5e9ba4ac8fc4eca554
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460256
+created: 1658321460256
+url: "{{ _.host }}/autorizacao"
+name: autorizacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_336ced09395a4c18a9495bb6b48fcc5e
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d6fc04ec2fd40b3ac8aa523b4664f72
+authentication: {}
+metaSortKey: -1648778292256.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

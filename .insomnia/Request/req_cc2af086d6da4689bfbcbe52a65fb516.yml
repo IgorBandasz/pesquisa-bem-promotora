@@ -1,0 +1,30 @@
+_id: req_cc2af086d6da4689bfbcbe52a65fb516
+type: Request
+parentId: wrk_08adf21e694b42ebae431e2ebc23656b
+modified: 1658321441498
+created: 1658321441498
+url: localhost:4001/usuario/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "a",
+    	"senha": "a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9daae48075dd4049a8b076a40804eae7
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

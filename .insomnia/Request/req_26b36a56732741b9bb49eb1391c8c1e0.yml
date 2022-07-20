@@ -1,0 +1,26 @@
+_id: req_26b36a56732741b9bb49eb1391c8c1e0
+type: Request
+parentId: fld_77e17dbd826844d08391d5f25aa77f9f
+modified: 1658321460287
+created: 1658321460287
+url: http://localhost:4001/estadoCivils/1
+name: Get Estado_Civil 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNTk3MTE5MywiZXhwIjoxNjM1OTcyOTkzfQ.UuNPSNXi_RF-dxsvA7-nt0wqmAQZqMEqhcE9qbUtcy-PTiYG4thHZevJqltWPIuO_fj-2qhVyw8XpwiRRSCTwTWggjdhNBRFfXQ-8i_kFfjU26QKjpPa0XMC54G56ubJmizDURsyZowLAP52qgkd-MvWXuPXap8jkws5kklHkUcmkBmnKXtDu87PRNJemEK4Si44Vktj9o19yv5m8TjHQM600mieEJDoRGhJWuSFmdWdzXSebWyC3LEb4k1lJamhGg5SQE4rbvwH5XqahCbVra6_9iY9hij47EsCUcTbE9mJoxUwkwsutvX0nUS6LxVnX4zRa6-fL6ZSPOmm59-XNg
+authentication: {}
+metaSortKey: -1635971887936
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

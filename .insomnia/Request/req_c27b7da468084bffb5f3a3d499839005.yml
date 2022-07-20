@@ -1,0 +1,28 @@
+_id: req_c27b7da468084bffb5f3a3d499839005
+type: Request
+parentId: fld_cda4987dde2345d5a47a82542761a2a3
+modified: 1658321460462
+created: 1658321460462
+url: http://localhost:4001/classificacoesProcedimento/1
+name: Get Classificacao 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fc09f30c97e74b31b1f394789cda1f7f
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_9b9304ece72f4aca81a0000804ec98af
+authentication: {}
+metaSortKey: -1637084027510
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

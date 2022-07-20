@@ -1,0 +1,32 @@
+_id: req_026bfd8c51e1407aa1550ce260e22987
+type: Request
+parentId: fld_dc6a21b833cc46388567cea6ec8f36c4
+modified: 1658321460450
+created: 1658321460450
+url: http://localhost:4001/classificacoesCredenciado/1
+name: Patch Classificacao
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Classifica Cred2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6b7d96f89a7644ef8e6154455e64fd5c
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_4040a0ce38694a2c884b34bc88981012
+authentication: {}
+metaSortKey: -1637083571063
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

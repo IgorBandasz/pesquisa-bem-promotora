@@ -1,0 +1,34 @@
+_id: req_8134e410a5334fba97a936bdefeb06aa
+type: Request
+parentId: fld_48cd1e6606714c96ae636d62c40bfbc8
+modified: 1658321460493
+created: 1658321460493
+url: http://localhost:4001/agrupamentoProcedimento
+name: Post Agrupamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "AgrupamentO"
+    }
+parameters: []
+headers:
+  - id: pair_a916db52f6fe43f49a074d0f555f01bb
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_d10889f4c7a04dad9da732513f877577
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1656074503438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

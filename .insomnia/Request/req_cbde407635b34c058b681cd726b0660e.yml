@@ -1,0 +1,25 @@
+_id: req_cbde407635b34c058b681cd726b0660e
+type: Request
+parentId: fld_88204a41c9844d5d882e33d95300cef4
+modified: 1658321460214
+created: 1658321460214
+url: "{{ _.host }}/faturaAssociado"
+name: faturaAssociado
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2031b50f747241378b76414fba4982c9
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1648746198825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

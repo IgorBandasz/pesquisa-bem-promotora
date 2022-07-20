@@ -1,0 +1,36 @@
+_id: req_dce7a28ea922480ea06536bffdc800e4
+type: Request
+parentId: fld_557e84dddadb49f891f73ce0e2a5b1e8
+modified: 1658321460337
+created: 1658321460337
+url: http://localhost:4001/faturamentos/6
+name: Patch Faturamento
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"competenciaId": 1,
+    	"dataInicioFaturamento": "2020-01-01",
+    	"dataFimFaturamento": "2021-01-02",
+    	"status": 1,
+    	"valorTotal": 50.55
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_577f537ae4ce48d9947b608c0ab7828f
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxMyIsInBlcmZpbFVzdWFyaW9JZCI6IjEiLCJpYXQiOjE2MzY0MDIyNTMsImV4cCI6MTYzODIwMjI1M30.g6SpAW3FVwMRaAF3fhgQY9QinrIqDFd4vxEe_LI_9zvQhYhf75WI-OYqx1dXihhaVvxfCwYz2SLoCSEBYN7PF0v2X9iUgxh4S2ZDYAxxkoqQd-V2yb2VXjNJ3bcbw-agQqMj8ei3OjBEtoCgyRclLma3kg94UGyS3B6_fbfQNr3gyO6PWb4phjt4eh1leSjnnGFm560d2p9QZDZd4Y0K5x9UQ80E27xK99FeVZdQY2owQtR6tCuDWcqpc6DuCSkoOxFT7T3OAioGGOHvM6nboqqdGXoxcktWnzN7DMLrQcevJeD3pQqfgITD6IxP5armo6srjT9c6GHyQ_Dxm8OPkg
+    id: pair_681083ad0ad64e1b8db81c3ac076e6c9
+authentication: {}
+metaSortKey: -1636402551834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_fb43a6cbaff04ff5a77204c1c1fb4492
+type: Request
+parentId: fld_2b9ed63e92fa49c7b14e31aabfeaf9a5
+modified: 1658321460402
+created: 1658321460402
+url: http://localhost:4001/orgaos
+name: Get Orgao
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9622a978d2514df4b488e0122e65121b
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ4NDUxNiwiZXhwIjoxNjM4Mjg0NTE2fQ.BI4arCTAZ50pOT7o-9UVAZdnSmXCrJB_9uKL2oVWcau1Pcu4i7I4uF3MAnHQTfbs87d1N1p-RLzu3pXLWupJ0oAwlI2kg7xi0o5cJIov3M9PkE53Zlj6UNDS8hxu9EvyCfTS8VvffZZ2yR25aG9EQO2a0W9F5HjBIMOMvrM8x-YGuVvtrTIczTSiLCpzvZLg_EH_IdDhef9ntmWhQHtY9ZGvd61XU5mSYATo_HP6NXuM89wzS5b0Yo1Q5oasHj9f0t1e6kpge3_klKEE7CZrdl-66dJG6w43SNNQd0CuiqjQAWr_hIJrKNl27DbF6g6X2pOXLY1uD6gurFXlIXb2fQ
+    id: pair_a7f3f0f960b8411aace91427241ca733
+authentication: {}
+metaSortKey: -1636485763765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

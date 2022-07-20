@@ -1,0 +1,28 @@
+_id: req_053148fe6feb488ca9283b8ddc7c625c
+type: Request
+parentId: fld_cf9ffab3a52c40ffbc1c7ab949b5c030
+modified: 1658321460432
+created: 1658321460432
+url: http://localhost:4001/lotacoes/1
+name: Get Locacao 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_493caa7601b74738a5c936b6b2fd705a
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ4NDUxNiwiZXhwIjoxNjM4Mjg0NTE2fQ.BI4arCTAZ50pOT7o-9UVAZdnSmXCrJB_9uKL2oVWcau1Pcu4i7I4uF3MAnHQTfbs87d1N1p-RLzu3pXLWupJ0oAwlI2kg7xi0o5cJIov3M9PkE53Zlj6UNDS8hxu9EvyCfTS8VvffZZ2yR25aG9EQO2a0W9F5HjBIMOMvrM8x-YGuVvtrTIczTSiLCpzvZLg_EH_IdDhef9ntmWhQHtY9ZGvd61XU5mSYATo_HP6NXuM89wzS5b0Yo1Q5oasHj9f0t1e6kpge3_klKEE7CZrdl-66dJG6w43SNNQd0CuiqjQAWr_hIJrKNl27DbF6g6X2pOXLY1uD6gurFXlIXb2fQ
+    id: pair_ff12f920da444569aa64d191ef3c8e18
+authentication: {}
+metaSortKey: -1636486232938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

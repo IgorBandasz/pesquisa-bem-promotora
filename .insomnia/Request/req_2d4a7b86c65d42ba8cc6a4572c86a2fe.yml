@@ -1,0 +1,29 @@
+_id: req_2d4a7b86c65d42ba8cc6a4572c86a2fe
+type: Request
+parentId: fld_30e8896f236b48c09edd155b190eaeb7
+modified: 1658321460369
+created: 1658321460369
+url: http://localhost:4001/recursoGlosas
+name: Get Recurso Glosa
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_641c31c2509b48e581e6f634c225fe31
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ2Mzc5MiwiZXhwIjoxNjM4MjYzNzkyfQ.XAuKh4gaKg3rr_t8_0xd9so-pOnQ5rz0f_htj2GFSq6ZyLwNpjPNt9XK2NIimeCFmEw1QVvmhMLUNJk2_loWa0zdWLzsRfQLkfn1bhtrwbjxNuGgWNvvdlsrKLfZkChAMd90KzLpWEwXge8xx-7VYbJYvdE7_MoBRTL3k_1BvGfFY86LEXLn2LnJCha6i8-B-xQyHSTQQNA0Rh_LN9yicIWxRPzUvnQuVse84gLKGb2Khoxtb2XHDtKTVX9ybZOzrXrjaaJUcUWgSOE4-VmJ7iBb6k93hw36-nOA55jGlaj8AbXRSHN4jUdTj9qq62qIv133timbYyz8CwyHMJGkHw
+    id: pair_eb6b5f301119474ea59053cf47f30ce1
+authentication: {}
+metaSortKey: -1636465981492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

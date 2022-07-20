@@ -1,0 +1,28 @@
+_id: req_5a7131fc296d4f20af3c9e1c5a010531
+type: Request
+parentId: fld_557e84dddadb49f891f73ce0e2a5b1e8
+modified: 1658321460334
+created: 1658321460334
+url: http://localhost:4001/faturamentos
+name: Get Faturamento
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9a1dd7640294e92a2e0e8ef5508100d
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxMyIsInBlcmZpbFVzdWFyaW9JZCI6IjEiLCJpYXQiOjE2MzY0MDIyNTMsImV4cCI6MTYzODIwMjI1M30.g6SpAW3FVwMRaAF3fhgQY9QinrIqDFd4vxEe_LI_9zvQhYhf75WI-OYqx1dXihhaVvxfCwYz2SLoCSEBYN7PF0v2X9iUgxh4S2ZDYAxxkoqQd-V2yb2VXjNJ3bcbw-agQqMj8ei3OjBEtoCgyRclLma3kg94UGyS3B6_fbfQNr3gyO6PWb4phjt4eh1leSjnnGFm560d2p9QZDZd4Y0K5x9UQ80E27xK99FeVZdQY2owQtR6tCuDWcqpc6DuCSkoOxFT7T3OAioGGOHvM6nboqqdGXoxcktWnzN7DMLrQcevJeD3pQqfgITD6IxP5armo6srjT9c6GHyQ_Dxm8OPkg
+    id: pair_7c8b9f9d3f40412d883379b70fe169f3
+authentication: {}
+metaSortKey: -1636402618915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

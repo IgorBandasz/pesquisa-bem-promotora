@@ -1,0 +1,36 @@
+_id: req_5140346dad5f4915a52c3b6e0d0989b6
+type: Request
+parentId: fld_557e84dddadb49f891f73ce0e2a5b1e8
+modified: 1658321460330
+created: 1658321460330
+url: http://localhost:4001/faturamentos
+name: Post Faturamento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"competenciaId": 1,
+    	"dataInicioFaturamento": "2020-01-01",
+    	"dataFimFaturamento": "2020-01-02",
+    	"status": 3,
+    	"valorTotal": 50.55
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb72f21ef5564be18b83207510e8d5bb
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxMyIsInBlcmZpbFVzdWFyaW9JZCI6IjEiLCJpYXQiOjE2MzY0MDIyNTMsImV4cCI6MTYzODIwMjI1M30.g6SpAW3FVwMRaAF3fhgQY9QinrIqDFd4vxEe_LI_9zvQhYhf75WI-OYqx1dXihhaVvxfCwYz2SLoCSEBYN7PF0v2X9iUgxh4S2ZDYAxxkoqQd-V2yb2VXjNJ3bcbw-agQqMj8ei3OjBEtoCgyRclLma3kg94UGyS3B6_fbfQNr3gyO6PWb4phjt4eh1leSjnnGFm560d2p9QZDZd4Y0K5x9UQ80E27xK99FeVZdQY2owQtR6tCuDWcqpc6DuCSkoOxFT7T3OAioGGOHvM6nboqqdGXoxcktWnzN7DMLrQcevJeD3pQqfgITD6IxP5armo6srjT9c6GHyQ_Dxm8OPkg
+    id: pair_3f10eabc5402473594b150c3008708b6
+authentication: {}
+metaSortKey: -1636402585349.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_99cde29061374441950e935078b4db9a
+type: Request
+parentId: fld_dc6a21b833cc46388567cea6ec8f36c4
+modified: 1658321460453
+created: 1658321460453
+url: http://localhost:4001/classificacoesCredenciado/1
+name: Delete Classificacao
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "motivo de exclusão"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_57a3d8511f7946aba1f36d0a1f47cb5d
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNzA4MTI1MywiZXhwIjoxNjM4ODgxMjUzfQ.A88FouLs9ibnuAXovEaReRJQkry9ftLo7QQe8WkrsqlnAgrUqroZTpsUHUziV1ogYRqOCO_sigv-0Mbxu3fJQtRQ5Lx6uT5DLVNM9-392GYwWnm_8MR1fbyLVW9Q95YN31M6e3aTTxSwv-UjKk1x9UFuIwIDlFu9OLPfinm8KM-WMo2L0Og7-45M9mO4skZ-aD6UgvlXyzs7tTRodmCFJS7CYOrk6Skg_oC3xH_ms_Iy5D5pX_sA_NDGeAN2H9y7rKecDk8CwX048wtIcdp2aOWCQzrZRhh7eAcwENV7l2wuNSiQLORXYjtUFe0bNoIzjQnF-NGvMZNFwD5OoI1oxA
+    id: pair_f7654e8795c74bf4ad34d03f3ae512e0
+authentication: {}
+metaSortKey: -1637083622738
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

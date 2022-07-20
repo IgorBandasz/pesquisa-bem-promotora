@@ -1,0 +1,60 @@
+_id: req_006cb55fb491423eaa4f01d65b2e28f2
+type: Request
+parentId: fld_3409e9f8582d4404b50f554d95050311
+modified: 1658321460304
+created: 1658321460304
+url: http://localhost:4001/pessoas
+name: Post Pessoas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"razaoSocial": "Igor Bandasz 5",
+    	"nomeFantasia": "Igor Bandasz",
+    	"CNPJ_CPF": "123456789012",
+    	"endereco": "rua lisboa",
+    	"num": "450",
+    	"comp": ".",
+    	"CEP": "94090710",
+    	"bairro": "garibaldina",
+    	"cidadeId": "1",
+    	"carteira": "123",
+    	"cnes": "123",
+    	"codigoNaOperadora": "1234",
+    	"numeroConselho": "1456",
+    	"tipoDependenciaId": "1",
+    	"conselhoRegionalId": "1",
+    	"classificacaoCredenciadoId": "1",
+    	"indicadorFaturamentoId": "1",
+    	"estadoCivilId": "1",
+    	"pessoaEspecialidade": [
+    		{
+    			"especialidadeId": 2	
+    		}
+    	],
+    	"pessoaDoencaPreExistente": [
+    		{
+    			"doencaId": 1,
+    			"dataTerminoCarencia": "2020-01-01"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_319c37f5255c4e98925833731a8a90bb
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_5c208351ddae4a59ae82a6ab035248fc
+authentication: {}
+metaSortKey: -1636123993424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

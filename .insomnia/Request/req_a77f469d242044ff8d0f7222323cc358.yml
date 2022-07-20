@@ -1,0 +1,25 @@
+_id: req_a77f469d242044ff8d0f7222323cc358
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460260
+created: 1658321460260
+url: "{{ _.host }}/autorizacao/historicoMesAtual?pacienteId=1&procedimentoId=1"
+name: autorizacao/historicoMesAtual
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_03ddeb93f4524e429905955ea2f04ea7
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1648800688133.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

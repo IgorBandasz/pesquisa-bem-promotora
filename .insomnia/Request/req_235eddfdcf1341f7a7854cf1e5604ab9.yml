@@ -1,0 +1,36 @@
+_id: req_235eddfdcf1341f7a7854cf1e5604ab9
+type: Request
+parentId: fld_b3044ab82bc94c4f894a0d484ca1de4b
+modified: 1658321454347
+created: 1658321454347
+url: http://localhost:4001/competencia
+name: Post Competencia
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"descricao": "Comp Abril3",
+    	"dataInicio": "2021-04-01",
+    	"dataTermino": "2021-04-30",
+    	"mes": 4,
+    	"ano": 2021
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_34f443730dc24e83977053e53fdf46ff
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_0a05a2498c1b4dcfb752ac3f3e0da52f
+authentication: {}
+metaSortKey: -1637084374853
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_39bc6bff0c084245956ac00dd276e720
+type: Request
+parentId: fld_24c1aac76cbd47c38a64d96ec73218d2
+modified: 1658321454331
+created: 1658321454331
+url: http://localhost:4001/cidades/123
+name: Patch Cidade
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 456,
+    	"nome": "Cachoeirinha",
+    	"uf": "RS"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_015816e7410145cb9a2a1e354102274d
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_90c282a91bc846cab948c6c3a7248e20
+authentication: {}
+metaSortKey: -1635971695385
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

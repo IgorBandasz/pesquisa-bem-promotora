@@ -1,0 +1,32 @@
+_id: req_1eae32f2a0fa46be8bb99c07c8a1b645
+type: Request
+parentId: fld_24c1aac76cbd47c38a64d96ec73218d2
+modified: 1658321454335
+created: 1658321454335
+url: http://localhost:4001/cidades/123
+name: Delete Cidade
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "Motivo de exclusão"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_56e2c04a53b64f9fb50d93765f826cc8
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_9dc9b2e03e8546239eec44c9abb91d1a
+authentication: {}
+metaSortKey: -1635971719553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

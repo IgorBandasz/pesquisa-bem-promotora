@@ -1,0 +1,47 @@
+_id: req_6be7c8ec335d4526b759ae1de0ad2308
+type: Request
+parentId: fld_22b6e91871b548d084c4b1ee7efef1c7
+modified: 1658321460359
+created: 1658321460359
+url: http://localhost:4001/atendimentos
+name: Post Atendimento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"dataAtendimento": "2021-11-09",
+    	"obs": "atendimento teste",
+    	"associadoId": 3,
+    	"beneficiarioId": 2,
+    	"prestadorId": 4,
+    	"executanteId": 4,
+    	"atendimentoProcedimento": [
+    		{
+    			"executanteId": 4,
+    			"procedimentoId": 2
+    		},
+    		{
+    			"executanteId": 4,
+    			"procedimentoId": 1
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cf162de738e24200b9c5a0e46aab3646
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_4113054da847489c812c1a8a750269a3
+authentication: {}
+metaSortKey: -1636461806325
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

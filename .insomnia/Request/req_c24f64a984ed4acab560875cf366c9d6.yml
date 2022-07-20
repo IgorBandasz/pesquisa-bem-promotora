@@ -1,0 +1,32 @@
+_id: req_c24f64a984ed4acab560875cf366c9d6
+type: Request
+parentId: fld_2b9ed63e92fa49c7b14e31aabfeaf9a5
+modified: 1658321460406
+created: 1658321460406
+url: http://localhost:4001/orgaos
+name: Post Orgao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Secretaria da Educação"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_69e9e0f60d6f416c995b48a3744a874b
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_e8af9edd72a84a15ac958a5d55af1e5e
+authentication: {}
+metaSortKey: -1636485699346
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

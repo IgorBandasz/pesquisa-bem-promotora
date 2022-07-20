@@ -1,0 +1,28 @@
+_id: req_86714bef143840f6aeb4969385c82d87
+type: Request
+parentId: fld_b3044ab82bc94c4f894a0d484ca1de4b
+modified: 1658321454341
+created: 1658321454341
+url: http://localhost:4001/competencia
+name: Get Competencia
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85d75f8fe0b14a709b1c5ce1fb113f86
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_8d7c0c4c3e4d4c4b9ce2cfac4dc089bc
+authentication: {}
+metaSortKey: -1637084298854
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

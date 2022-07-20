@@ -1,0 +1,32 @@
+_id: req_5b968fc95dc445aeb1027614817f3305
+type: Request
+parentId: fld_77e17dbd826844d08391d5f25aa77f9f
+modified: 1658321460294
+created: 1658321460294
+url: http://localhost:4001/estadoCivil/a
+name: Patch Estado_Civil
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"aaaeeeea"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c3fa088ef1f4632ae5eec25e4d569cc
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_867186faf9294703956d9573e5a80338
+authentication: {}
+metaSortKey: -1635971753493.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

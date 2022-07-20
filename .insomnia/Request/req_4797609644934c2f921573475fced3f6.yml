@@ -1,0 +1,28 @@
+_id: req_4797609644934c2f921573475fced3f6
+type: Request
+parentId: fld_be1df52c088c41fba318cb0b544fe6b0
+modified: 1658321460391
+created: 1658321460391
+url: http://localhost:4001/folhaPagamentos/5
+name: Get Folha Pagamento 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b1cfab2def7d4ba886c7849fc60159c1
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ2Mzc5MiwiZXhwIjoxNjM4MjYzNzkyfQ.XAuKh4gaKg3rr_t8_0xd9so-pOnQ5rz0f_htj2GFSq6ZyLwNpjPNt9XK2NIimeCFmEw1QVvmhMLUNJk2_loWa0zdWLzsRfQLkfn1bhtrwbjxNuGgWNvvdlsrKLfZkChAMd90KzLpWEwXge8xx-7VYbJYvdE7_MoBRTL3k_1BvGfFY86LEXLn2LnJCha6i8-B-xQyHSTQQNA0Rh_LN9yicIWxRPzUvnQuVse84gLKGb2Khoxtb2XHDtKTVX9ybZOzrXrjaaJUcUWgSOE4-VmJ7iBb6k93hw36-nOA55jGlaj8AbXRSHN4jUdTj9qq62qIv133timbYyz8CwyHMJGkHw
+    id: pair_6b3d658e454b4913b500f1d0be9b94cb
+authentication: {}
+metaSortKey: -1636487731535
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

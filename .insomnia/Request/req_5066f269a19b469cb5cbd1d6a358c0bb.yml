@@ -1,0 +1,32 @@
+_id: req_5066f269a19b469cb5cbd1d6a358c0bb
+type: Request
+parentId: fld_557e84dddadb49f891f73ce0e2a5b1e8
+modified: 1658321460345
+created: 1658321460345
+url: http://localhost:4001/faturamentos/5
+name: Delete Faturamento
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "não sou obrigado a manter isso no DB"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a8a577c12ee7484999340743d4cbfadd
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxMyIsInBlcmZpbFVzdWFyaW9JZCI6IjEiLCJpYXQiOjE2MzY0MDIyNTMsImV4cCI6MTYzODIwMjI1M30.g6SpAW3FVwMRaAF3fhgQY9QinrIqDFd4vxEe_LI_9zvQhYhf75WI-OYqx1dXihhaVvxfCwYz2SLoCSEBYN7PF0v2X9iUgxh4S2ZDYAxxkoqQd-V2yb2VXjNJ3bcbw-agQqMj8ei3OjBEtoCgyRclLma3kg94UGyS3B6_fbfQNr3gyO6PWb4phjt4eh1leSjnnGFm560d2p9QZDZd4Y0K5x9UQ80E27xK99FeVZdQY2owQtR6tCuDWcqpc6DuCSkoOxFT7T3OAioGGOHvM6nboqqdGXoxcktWnzN7DMLrQcevJeD3pQqfgITD6IxP5armo6srjT9c6GHyQ_Dxm8OPkg
+    id: pair_8996270b432d4a92bb72c9f0629bc8f5
+authentication: {}
+metaSortKey: -1636402551784
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

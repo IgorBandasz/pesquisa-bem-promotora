@@ -1,0 +1,28 @@
+_id: req_a4979fc4058e4ad5934cd5b005052c5d
+type: Request
+parentId: fld_cda4987dde2345d5a47a82542761a2a3
+modified: 1658321460472
+created: 1658321460472
+url: http://localhost:4001/classificacoesProcedimento/3
+name: Delete Classificacao
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5f2d6e1d4e0c45f9ab766d64f0708219
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNzA4MTI1MywiZXhwIjoxNjM4ODgxMjUzfQ.A88FouLs9ibnuAXovEaReRJQkry9ftLo7QQe8WkrsqlnAgrUqroZTpsUHUziV1ogYRqOCO_sigv-0Mbxu3fJQtRQ5Lx6uT5DLVNM9-392GYwWnm_8MR1fbyLVW9Q95YN31M6e3aTTxSwv-UjKk1x9UFuIwIDlFu9OLPfinm8KM-WMo2L0Og7-45M9mO4skZ-aD6UgvlXyzs7tTRodmCFJS7CYOrk6Skg_oC3xH_ms_Iy5D5pX_sA_NDGeAN2H9y7rKecDk8CwX048wtIcdp2aOWCQzrZRhh7eAcwENV7l2wuNSiQLORXYjtUFe0bNoIzjQnF-NGvMZNFwD5OoI1oxA
+    id: pair_b934ce2c76ba4aacab117557a33dbe54
+authentication: {}
+metaSortKey: -1637084210158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

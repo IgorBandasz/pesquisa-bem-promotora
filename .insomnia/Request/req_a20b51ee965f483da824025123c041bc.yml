@@ -1,0 +1,32 @@
+_id: req_a20b51ee965f483da824025123c041bc
+type: Request
+parentId: fld_77e17dbd826844d08391d5f25aa77f9f
+modified: 1658321460290
+created: 1658321460290
+url: http://localhost:4001/estadoCivil
+name: Post Estado_Civil
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome":"aaaeeeea"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c3fa088ef1f4632ae5eec25e4d569cc
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_867186faf9294703956d9573e5a80338
+authentication: {}
+metaSortKey: -1635971787434
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

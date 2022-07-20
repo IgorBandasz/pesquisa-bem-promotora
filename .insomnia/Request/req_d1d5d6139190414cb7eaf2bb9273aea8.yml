@@ -1,0 +1,48 @@
+_id: req_d1d5d6139190414cb7eaf2bb9273aea8
+type: Request
+parentId: fld_cc27bad87d0f4db08ec2ad711674c6dd
+modified: 1658321460481
+created: 1658321460481
+url: http://localhost:4001/associado
+name: Post Pessoas
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ativo": true,
+    	"razaoSocial": "Igor Bandasz ",
+    	"cnpj_cpf": "123456789012",
+    	"ie_rg": "",
+    	"endereco": "rua lisboa",
+    	"num": "450",
+    	"comp": ".",
+    	"cep": "94090710",
+    	"bairro": "garibaldina",
+    	"cidadeId": "4309209",
+    	"associadoDoencaPreExistente": [
+    		{
+    			"associadoId": -1,
+    			"doencaId": 1,
+    			"dataTerminoCarencia": "2020-01-01"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_319c37f5255c4e98925833731a8a90bb
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_5c208351ddae4a59ae82a6ab035248fc
+authentication: {}
+metaSortKey: -1636123993424
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

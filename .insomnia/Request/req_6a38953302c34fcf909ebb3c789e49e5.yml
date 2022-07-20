@@ -1,0 +1,32 @@
+_id: req_6a38953302c34fcf909ebb3c789e49e5
+type: Request
+parentId: fld_cda4987dde2345d5a47a82542761a2a3
+modified: 1658321460468
+created: 1658321460468
+url: http://localhost:4001/classificacoesProcedimento/3
+name: Patch Classificacao
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Fisioterapia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_272f7174fcfb40f4b100a46ee52eca6a
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNzA4MTI1MywiZXhwIjoxNjM4ODgxMjUzfQ.A88FouLs9ibnuAXovEaReRJQkry9ftLo7QQe8WkrsqlnAgrUqroZTpsUHUziV1ogYRqOCO_sigv-0Mbxu3fJQtRQ5Lx6uT5DLVNM9-392GYwWnm_8MR1fbyLVW9Q95YN31M6e3aTTxSwv-UjKk1x9UFuIwIDlFu9OLPfinm8KM-WMo2L0Og7-45M9mO4skZ-aD6UgvlXyzs7tTRodmCFJS7CYOrk6Skg_oC3xH_ms_Iy5D5pX_sA_NDGeAN2H9y7rKecDk8CwX048wtIcdp2aOWCQzrZRhh7eAcwENV7l2wuNSiQLORXYjtUFe0bNoIzjQnF-NGvMZNFwD5OoI1oxA
+    id: pair_53dd1e623914425bb83d123d2541267a
+authentication: {}
+metaSortKey: -1637084133579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

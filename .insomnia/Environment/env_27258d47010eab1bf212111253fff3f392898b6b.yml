@@ -1,0 +1,14 @@
+_id: env_27258d47010eab1bf212111253fff3f392898b6b
+type: Environment
+parentId: wrk_08adf21e694b42ebae431e2ebc23656b
+modified: 1657916829330
+created: 1635961864729
+name: Base Environment
+data:
+  token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwiaWF0IjoxNjU3OTE2ODE3LCJleHAiOjE2NTgwOTY4MTd9.h6M1z7OURbM12qEaBAQA1W6se0OgmKWb3EXmOjIadiAfiZnFsaW-_-PVku6H2HR6YSTbgQj30PpLKgBtytNw2hyB7mpnmoIyh4Q7bNKj9xiKqJBI4KXT7OhH3_3HSypOsYeJRHAJ9XDdmd6K6dbhnZZbUUvcIu-GGzMKCPFdqS67hlKiQI39JmpWQzR5m8kz7q8R1GmZ89V9DrTuY1rkxBqMDYm438rDmT2Vvg9pYwZ93bU9OJ1Iz-ee2kL4PiFqP5_-snyhU2lLLE3f8BXpgUsuJhgR4PUx1_qFMC6AflKNC0Z4SIsZ3VEJgb5dtNQmrrQfTZCDdAjJKlVyGwgiiA
+dataPropertyOrder:
+  "&":
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1635961864729

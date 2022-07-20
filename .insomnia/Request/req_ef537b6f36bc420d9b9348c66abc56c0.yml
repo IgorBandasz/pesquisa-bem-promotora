@@ -1,0 +1,37 @@
+_id: req_ef537b6f36bc420d9b9348c66abc56c0
+type: Request
+parentId: fld_b9c273ad463243998c91fdfe61300c3a
+modified: 1658321460323
+created: 1658321460323
+url: http://localhost:4001/portesProcedimento
+name: Post Porte Procedimento
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "porte procedimento 1",
+    	"porteProcedimentoVigencia": [
+    		{
+    			"vigenciaId": 1
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c0c593ad1b0d415ab8e0403081b01837
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjE0MDM4MCwiZXhwIjoxNjM3OTQwMzgwfQ.jZfUmmRPnmE7FuHaEg6uNFDw903x5LFGhi_evypdKB2N5X7IgCyWncX7Piiu-X16lY7WTA0FD6z5DT4_McwLked9s-EKtl6YoD846A_OmoK1WTj6MhYgWYqiYhFXNwksdQflQzqAJV8Qpj-PkAB49oDXJH5vglSVzd6_rhu4QBksfGAho1q0-vJLXWyzUN4Xe-VEws4l_r6FTIEKsp9SdYH6vdUPl9AHaJlF6p-gRBn3shzuPwKc7pI-CNq3adVuxf1anHOH0mOYUcPpRKM5CRivF_mb73wrFpe_MHfxGsj8rDtxCTXwd1r-33wuaN5_1ZzK-yOvalV7WaFJJwBdiw
+    id: pair_0ca88a4a116f4859896895f14e9b646a
+authentication: {}
+metaSortKey: -1636372933834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

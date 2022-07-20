@@ -1,0 +1,32 @@
+_id: req_96521508c7e143e9a93a03f2b2048847
+type: Request
+parentId: fld_30e8896f236b48c09edd155b190eaeb7
+modified: 1658321460377
+created: 1658321460377
+url: http://localhost:4001/recursoGlosas/3
+name: Delete Recurso Glosa
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivo": "motivo de exclusão"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_185f700960f0486b8096d7df31179762
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQ2Mzc5MiwiZXhwIjoxNjM4MjYzNzkyfQ.XAuKh4gaKg3rr_t8_0xd9so-pOnQ5rz0f_htj2GFSq6ZyLwNpjPNt9XK2NIimeCFmEw1QVvmhMLUNJk2_loWa0zdWLzsRfQLkfn1bhtrwbjxNuGgWNvvdlsrKLfZkChAMd90KzLpWEwXge8xx-7VYbJYvdE7_MoBRTL3k_1BvGfFY86LEXLn2LnJCha6i8-B-xQyHSTQQNA0Rh_LN9yicIWxRPzUvnQuVse84gLKGb2Khoxtb2XHDtKTVX9ybZOzrXrjaaJUcUWgSOE4-VmJ7iBb6k93hw36-nOA55jGlaj8AbXRSHN4jUdTj9qq62qIv133timbYyz8CwyHMJGkHw
+    id: pair_40a73e5f54494127b8550632c7c0349f
+authentication: {}
+metaSortKey: -1636465653315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_50041bc5992c4e1eacda704cf0eb84ce
+type: Request
+parentId: fld_144ed69697e6416f9d8e8b87ec220a57
+modified: 1658321460352
+created: 1658321460352
+url: http://localhost:4001/rubricaFaturas
+name: Post Rubrica
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "rubrica 2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0e60407f440745a69a97e1c6e835cdb3
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiI1IiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNjQwMzc3MCwiZXhwIjoxNjM4MjAzNzcwfQ.h8S5uMPViKUbJA5cl-vSm4IkI7fuq4EOOX1ZQcP2k05GGU2OAcBl5so6zqa-ix-0yef1bY5AvWvpKAad23okYL0YW3TsT45Ds2mtZAj7rUW3Iw9IvE59AhK8ZUhnUqgqGKf3H9teBy-McX6rKTavvOWNaSwATZEWeHJvqVgpiG_c6HtPqA2zClT8Md_kZOmN9yg1uBdr2UiaNMmEw5CTJchyWFV1F3IbSVTobnta69dGU5LtYLJOl3WUzjOJXCB6ilaV0arlMJ2EuXhgf7F0DGTkTm8FRiqhSpekgT32uffx8IsF4O9fNPSPtNmBdJSfWmvRh4WUC__rM2IEtD2ubw
+    id: pair_7932738f9c384b3a9fc34aa1b07cd845
+authentication: {}
+metaSortKey: -1636405857025
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

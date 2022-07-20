@@ -1,0 +1,28 @@
+_id: req_2722be93d3f04942a7d0e7acd391bfd0
+type: Request
+parentId: fld_dc6a21b833cc46388567cea6ec8f36c4
+modified: 1658321460444
+created: 1658321460444
+url: http://localhost:4001/classificacoesCredenciado/1
+name: Get Classificacao 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_25a63a3007494de59d4bfc5a92ea7a26
+  - name: x-access-token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvSWQiOiIxIiwicGVyZmlsVXN1YXJpb0lkIjoiMSIsImlhdCI6MTYzNzA4MTI1MywiZXhwIjoxNjM4ODgxMjUzfQ.A88FouLs9ibnuAXovEaReRJQkry9ftLo7QQe8WkrsqlnAgrUqroZTpsUHUziV1ogYRqOCO_sigv-0Mbxu3fJQtRQ5Lx6uT5DLVNM9-392GYwWnm_8MR1fbyLVW9Q95YN31M6e3aTTxSwv-UjKk1x9UFuIwIDlFu9OLPfinm8KM-WMo2L0Og7-45M9mO4skZ-aD6UgvlXyzs7tTRodmCFJS7CYOrk6Skg_oC3xH_ms_Iy5D5pX_sA_NDGeAN2H9y7rKecDk8CwX048wtIcdp2aOWCQzrZRhh7eAcwENV7l2wuNSiQLORXYjtUFe0bNoIzjQnF-NGvMZNFwD5OoI1oxA
+    id: pair_169dde8aca194502bc8531d73a86c3ce
+authentication: {}
+metaSortKey: -1637082576302
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

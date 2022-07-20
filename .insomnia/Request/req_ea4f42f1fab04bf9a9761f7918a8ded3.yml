@@ -1,0 +1,25 @@
+_id: req_ea4f42f1fab04bf9a9761f7918a8ded3
+type: Request
+parentId: fld_cabad2ffb42b4ced9f4a0f973a94bbff
+modified: 1658321460238
+created: 1658321460238
+url: "{{ _.host }}/faturaCredenciado"
+name: faturaCredenciado/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_0183200a7132415facb8dc5a91901874
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1648746202718.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

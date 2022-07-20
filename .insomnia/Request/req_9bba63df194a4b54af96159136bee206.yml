@@ -1,0 +1,28 @@
+_id: req_9bba63df194a4b54af96159136bee206
+type: Request
+parentId: fld_dc6a21b833cc46388567cea6ec8f36c4
+modified: 1658321460441
+created: 1658321460441
+url: http://localhost:4001/classificacaoCredenciado
+name: Get Classificacao
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_97b1482daa9645afb889c4e6e896e316
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_ab4e2bf035a44520acb38d574428c97c
+authentication: {}
+metaSortKey: -1637082504867
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

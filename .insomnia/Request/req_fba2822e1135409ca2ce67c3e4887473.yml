@@ -1,0 +1,28 @@
+_id: req_fba2822e1135409ca2ce67c3e4887473
+type: Request
+parentId: fld_cf9ffab3a52c40ffbc1c7ab949b5c030
+modified: 1658321460423
+created: 1658321460423
+url: http://localhost:4001/lotacao
+name: Get Lotacao
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7f8370d2630f45fabd154af55d093a91
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_16d49ee90aec4aa5a8a5aabf65e9a6e7
+authentication: {}
+metaSortKey: -1636486232988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

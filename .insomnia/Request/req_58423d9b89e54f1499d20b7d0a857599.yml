@@ -1,0 +1,32 @@
+_id: req_58423d9b89e54f1499d20b7d0a857599
+type: Request
+parentId: fld_cda4987dde2345d5a47a82542761a2a3
+modified: 1658321460465
+created: 1658321460465
+url: http://localhost:4001/classificacoesProcedimento
+name: Post Classificacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Massagem"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_117dbce9d63e49c39096e76e22ff9c01
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_b4a6741f4c3f49c49334a4c696cf7ab1
+authentication: {}
+metaSortKey: -1637084049686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

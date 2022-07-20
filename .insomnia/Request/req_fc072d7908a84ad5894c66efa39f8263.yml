@@ -1,0 +1,28 @@
+_id: req_fc072d7908a84ad5894c66efa39f8263
+type: Request
+parentId: fld_3409e9f8582d4404b50f554d95050311
+modified: 1658321460309
+created: 1658321460309
+url: http://localhost:4001/pessoas/20
+name: Get Pessoas 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1b4a3503de8e4f3aaf48327486842540
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_c2f4e10056874da78de067966701ccb7
+authentication: {}
+metaSortKey: -1636122706850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

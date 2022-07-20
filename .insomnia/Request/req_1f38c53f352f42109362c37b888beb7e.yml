@@ -1,0 +1,28 @@
+_id: req_1f38c53f352f42109362c37b888beb7e
+type: Request
+parentId: fld_24c1aac76cbd47c38a64d96ec73218d2
+modified: 1658321454322
+created: 1658321454322
+url: http://localhost:4001/cidade/16
+name: Get Cidade 1
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_46b954856fc64a83a382737da858b851
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_53a769545b5e450abf6ae2e0fa412adc
+authentication: {}
+metaSortKey: -1635971633121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

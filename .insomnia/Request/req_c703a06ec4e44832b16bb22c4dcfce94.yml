@@ -1,0 +1,34 @@
+_id: req_c703a06ec4e44832b16bb22c4dcfce94
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460270
+created: 1658321460270
+url: "{{ _.host }}/autorizacao/1/denied"
+name: autorizacao/{id}/denied
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"statusId": 1,
+    	"descricaoFinalizacao": "autorizacao foi negada"
+    }
+parameters: []
+headers:
+  - id: pair_336ced09395a4c18a9495bb6b48fcc5e
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d6fc04ec2fd40b3ac8aa523b4664f72
+authentication: {}
+metaSortKey: -1648759629026.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

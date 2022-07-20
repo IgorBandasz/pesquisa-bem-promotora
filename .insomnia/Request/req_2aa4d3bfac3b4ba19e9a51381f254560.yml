@@ -1,0 +1,25 @@
+_id: req_2aa4d3bfac3b4ba19e9a51381f254560
+type: Request
+parentId: fld_dcce2dc831a540f4aff678edd052fd2c
+modified: 1658321447792
+created: 1658321447792
+url: "{{ _.host }}/perfilUsuario"
+name: perfilUsuario
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_5a75b5842901495c801bb194a54b3fd1
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1648150983518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

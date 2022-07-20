@@ -1,0 +1,32 @@
+_id: req_99c83da5333d4c8f92bee47269624e40
+type: Request
+parentId: fld_cf9ffab3a52c40ffbc1c7ab949b5c030
+modified: 1658321460426
+created: 1658321460426
+url: http://localhost:4001/lotacao
+name: Post Lotacao
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nome": "Prefeitura"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_16b9682089e148e7ac46ad1a7120dabe
+  - name: x-access-token
+    value: "{{ _.token }}"
+    id: pair_ffafbf6b80724017bcb5aa821f337819
+authentication: {}
+metaSortKey: -1636486220679.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

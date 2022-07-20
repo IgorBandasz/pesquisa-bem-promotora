@@ -1,0 +1,33 @@
+_id: req_77ffe5b87e814a65937371df90c8a18b
+type: Request
+parentId: fld_de5c9ae3a50349239c41c568292281db
+modified: 1658321460278
+created: 1658321460278
+url: "{{ _.host }}/autorizacao/1"
+name: autorizacao/{id}
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"motivoExclusao" : ""
+    }
+parameters: []
+headers:
+  - id: pair_336ced09395a4c18a9495bb6b48fcc5e
+    name: x-access-token
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8d6fc04ec2fd40b3ac8aa523b4664f72
+authentication: {}
+metaSortKey: -1648756829541.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
